@@ -3,9 +3,7 @@ import {connect} from 'react-redux'
 
 function Products({products, match}) {
     const {params: {productName: productsGroupName}} = match
-    const productsList = products[productsGroupName] ? products[productsGroupName].
-    products.
-    map((item, index) => {
+    const productsList = products[productsGroupName] ? products[productsGroupName].products.map((item, index) => {
         return (<div key={"products-list" + index} className="card mb-4 box-shadow">
             <div className="card-header">
                 <h4 className="my-0 font-weight-normal">{item.name}</h4>

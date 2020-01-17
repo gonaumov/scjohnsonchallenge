@@ -3,11 +3,6 @@ import { connect } from 'react-redux'
 import { withRouter } from "react-router-dom"
 
 function Fortune({products, history}) {
-    const callToActions = Object.keys(products).map((item, index) => (
-        <button onClick={() => history.push("/products/" + item)} type="button" key={'item-list' + index} className="btn btn-primary">
-            {products[item].description}
-        </button>
-    ));
     return (
         <>
         <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">

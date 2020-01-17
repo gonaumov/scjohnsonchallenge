@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom"
 
 function Home({products, history}) {
     const callToActions = Object.keys(products).map((item, index) => (
-        <button onClick={() => history.push("/products/" + item)} type="button" key={'item-list' + index} className="btn btn-primary">
+        <button onClick={() => history.push("/products/" + item)} type="button" key={'item-list' + index} className="btn btn-primary ml-2 mb-2">
             {products[item].description}
         </button>
     ));

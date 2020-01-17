@@ -8,7 +8,7 @@ function Answer({answer}) {
         <>
             <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center clearfix">
                 <header>
-                    <img src="/images/toilet-duck.png" alt="Duck"/>
+                    <img src="./images/toilet-duck.png" alt="Duck"/>
                     <p className="lead">
                         Great!
                         You are lucky.

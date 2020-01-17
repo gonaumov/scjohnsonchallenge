@@ -7,7 +7,7 @@ function Fortune({products, history}) {
         <>
         <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <header>
-                <img src="/images/toilet-duck.png" alt="Duck"/>
+                <img src="./images/toilet-duck.png" alt="Duck"/>
                 <p className="lead">
                     Yay! I can predict your future also.
                     Just type your question here.

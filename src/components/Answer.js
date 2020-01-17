@@ -25,7 +25,7 @@ function Answer({answer}) {
                     <div className="card-body">
                         <ul className="list-unstyled mt-3 mb-4">
                             <li>{answer.answer}</li>
-                            <li><img src={answer.image} height="88px" alt=""/></li>
+                            <li><img src={"." + answer.image} height="88px" alt=""/></li>
                         </ul>
                     </div>
                 </div>

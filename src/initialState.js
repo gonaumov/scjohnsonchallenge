@@ -18,7 +18,18 @@ const initialState = {
                     name: "Glade",
                     image: "/images/glade-fresh.jpg",
                     description: "Air fresheners",
-                    answer: "With Glade you will be irresistible for everione"
+                    answer: "With Glade you will be irresistible for everyone"
+                }
+            ]
+        },
+        killInsects: {
+            description: "Kill insects",
+            products: [
+                {
+                    name: "Raid",
+                    image: "/images/Raid_Logo.png",
+                    description: "Insecticides",
+                    answer: "With Raid you will prevail all your enemies"
                 }
             ]
         }

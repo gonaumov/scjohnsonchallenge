@@ -29,9 +29,11 @@ function Products({products, match}) {
                 </header>
             </div>
             <div className="container">
-            <div className="col-3 card-deck mb-3 text-center">
-                {productsList}
-            </div>
+                <div className="row align-items-center justify-content-center">
+                    <div className="col-3 card-deck mb-3 text-center">
+                        {productsList}
+                    </div>
+                </div>
             </div>
         </>
     );

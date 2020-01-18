@@ -17,19 +17,21 @@ function Answer({answer}) {
                 </header>
             </div>
             <div className="container">
-            <div className="col-3 card-deck mb-3 text-center">
-                <div key="products-list-answer" className="card mb-4 box-shadow">
-                    <div className="card-header">
-                        <h4 className="my-0 font-weight-normal">{answer.name}</h4>
-                    </div>
-                    <div className="card-body">
-                        <ul className="list-unstyled mt-3 mb-4">
-                            <li>{answer.answer}</li>
-                            <li><img src={"." + answer.image} height="88px" alt=""/></li>
-                        </ul>
+                <div className="row align-items-center justify-content-center">
+                    <div className="col-3 card-deck mb-3 d-flex">
+                        <div key="products-list-answer" className="card mb-4 box-shadow">
+                            <div className="card-header">
+                                <h4 className="my-0 font-weight-normal">{answer.name}</h4>
+                            </div>
+                            <div className="card-body">
+                                <ul className="list-unstyled mt-3 mb-4">
+                                    <li>{answer.answer}</li>
+                                    <li><img src={"." + answer.image} height="88px" alt=""/></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </>
     );

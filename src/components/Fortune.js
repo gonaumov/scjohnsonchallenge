@@ -22,7 +22,7 @@ function Fortune({products, history}) {
                     history.push('/answer/')
                 }}>
                     <div className="form-row align-items-center justify-content-center">
-                        <div className="col-6">
+                        <div className="col-10 col-sm-8">
                             <div className='form-group mx-auto text-center'>
                                 <label htmlFor="question">
                                     Please type your question

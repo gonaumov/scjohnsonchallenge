@@ -34,7 +34,7 @@ function Products({products, match}) {
             </div>
             <div className="container">
                 <div className="row align-items-center justify-content-center">
-                    <div className="col-3 card-deck mb-3 text-center">
+                    <div className="card-deck mb-3 text-center">
                         <TransitionGroup appear={true}>
                             {productsList}
                         </TransitionGroup>

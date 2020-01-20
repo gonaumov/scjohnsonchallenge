@@ -23,3 +23,30 @@ html {
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.animated-node-enter {
+    opacity: 0;
+}
+.animated-node-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+}
+.animated-node-exit {
+    opacity: 1;
+}
+.animated-node-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+}
+.animated-node-appear {
+    opacity: 0;
+}
+
+.animated-node-appear.animated-node-appear-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.noresize {
+    resize: none;
+}
